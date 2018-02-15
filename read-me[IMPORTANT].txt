@@ -1,0 +1,6 @@
+Le cartelle che contengono i file *.java sono i 'progetti'... ovvero:
+
+- Strings
+- Arrays\Esercizi
+
+e così via
