@@ -13,23 +13,11 @@ public class Lampadina {
 	}
 	
 	public void click(){
-		if(mClicks > 0){
-			if(stato == 0)
-				stato = 1;
-			else
-				stato = 0;
-			mClicks--;
-		}else{
-			stato = 2;
-		}
+		stato = mClicks > 0 ? 2 : stato > 0 ? 0 : 1;
 	}
 	
 	public void stato(){
-		if(stato == 0)
-			System.out.println("Spenta");
-		else if(stato == 1)
-			System.out.println("Accesa");
-		else
-			System.out.println("Rotta");
+		String s = stato < 1 ? "spenta" : stato > 1 ? "rotta" : "accesa";
+		System.out.println(s);
 	}
 }
