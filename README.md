@@ -13,5 +13,4 @@
   >   <li><a href="https://github.com/Un-knownCoder/Java-Repository/tree/master/JAVA/Strings">JAVA\Strings</a></li>
   >   E altri...
  >  </ul>
- >  <hr />
 > </p>
