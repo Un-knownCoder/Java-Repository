@@ -17,9 +17,7 @@ public class Lampadina {
 		stato = mClicks <= 0 ? 2 : stato > 0 ? 0 : 1;
 	}
 	
-	public void stato(){
-		// Stampa lo stato attuale della lampadina
-		String s = stato < 1 ? "spenta" : stato > 1 ? "rotta" : "accesa";
-		System.out.println(s);
+	public void getState(){
+		return stato;
 	}
 }
