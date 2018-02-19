@@ -7,7 +7,7 @@ public class Main {
 		Switch sw1 = new Switch(5);
 		
 		Scanner scan = new Scanner(System.in);
-    int n;
+    		int n;
 		if(scan.hasNextInt())
 			n = scan.nextInt();
 		else
