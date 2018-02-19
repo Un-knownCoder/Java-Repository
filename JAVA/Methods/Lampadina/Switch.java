@@ -12,5 +12,6 @@ public class Switch {
     int st = lamp.getState();
     
     String state = s < 1 ? "spenta" : s > 1 ? "rotta" : "accesa";
+    System.out.println(state);
   }
 }	
