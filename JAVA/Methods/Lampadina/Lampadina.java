@@ -14,7 +14,7 @@ public class Lampadina {
 	
 	public void click(){
 		// modifica lo stato della lampadina
-		stato = mClicks > 0 ? 2 : stato > 0 ? 0 : 1;
+		stato = mClicks <= 0 ? 2 : stato > 0 ? 0 : 1;
 	}
 	
 	public void stato(){
